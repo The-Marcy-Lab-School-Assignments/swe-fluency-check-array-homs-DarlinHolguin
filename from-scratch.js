@@ -10,17 +10,19 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 
 // Problem 1
 const printEveryWord = (words) => {
-
+  words.forEach(word => {
+    console.log(word)
+  })
 };
-
+console.log(printEveryWord(sampleWords))
 // Problem 2
 const getStringLengths = (strings) => {
-
+  //This question utilizes the .map() method.
 };
 
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+  //This question utilizes the .sort() method.
 };
 
 /* -------------------------------------------- */
@@ -31,12 +33,12 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 
 // Problem 4
 const getEvenNumbers = (nums) => {
-
+  //This question utilizes the .filter() method.
 };
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-
+  //This questions utilizes the .forEach method.
 };
 
 /* -------------------------------------------------- */
@@ -53,28 +55,28 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
-
+  //This question utilizes the .forEach method.
 };
 
 
 // Problem 7
 const getUserNames = (users) => {
-
+  //This question utilizes the .filter method.
 };
 
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
+  //This question utilizes the .filter() method.
 };
 
 
 // Problem 9
 const getTotalScore = (users) => {
-
+  //This question utilizes the .reduce() method.
 };
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+  //This question utilized the .sort() method.
 };
